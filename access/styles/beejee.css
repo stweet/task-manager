@@ -1,0 +1,178 @@
+/* ---------------- bootstrap styles (override) */
+body { background-color: #fcfcfc; }
+
+.well-filter {
+    text-align: right;
+    display: none;
+    padding: 2px;
+}
+
+.well-filter .btn-group {
+    margin-right: 2px;
+}
+
+.well-filter .btn-group:last-child {
+    margin: 0;
+}
+
+.dropdown-menu a {
+    padding: 3px 15px!important;
+}
+
+.panel-heading {
+    position: relative;
+}
+
+.panel-attach {
+    float: right;
+}
+
+.panel-info-item {
+    margin-right: 15px;
+}
+
+.task-tool .glyphicon,
+.panel-info-item .glyphicon {
+    margin-right: 5px;
+}
+
+.panel-context,
+.panel-cover {
+    float: left;
+}
+
+.panel-cover {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    background-color: #f5f5f5;
+    border: 1px #ddd solid;
+    border-radius: 4px;
+    margin-right: 15px;
+    height: 120px;
+    width: 160px;
+}
+
+/* ---------------- application styles*/
+.filter-limits ul {
+    text-align: center;
+    min-width: 2px;
+}
+
+.filter-states {
+    float: left;
+}
+
+.task-tool {
+    padding: 2px 0px 0px 7px;
+    background: white;
+    position: absolute;
+    border-radius: 4px;
+    right: 8px;
+    top: 7px;
+}
+
+.task-image-editor {
+    border: 1px #ddd solid;
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+    height: 238px;
+    width: 100%;
+}
+
+.task-image-editor .image-container {
+    background-color: #f5f5f5;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.task-image-editor .image-container img {
+    position: absolute;
+    max-height: 100%;
+    margin: auto;
+    width: auto;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+
+.task-image-editor .image-container .upload-button {
+    transition: all .3s ease-in-out;
+    border: 2px #999 dashed;
+    border-radius: 6px;
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+    width: 140px;
+    height: 50px;
+    padding-top: 8px;
+    color: #999;
+    font-size: 1.4em;
+    margin: auto;
+}
+
+.task-image-editor .image-container:hover .upload-button {
+    background-color: rgba(0, 80, 120, .5);
+    border-color: white;
+    color: white;
+}
+
+.task-image-editor .image-container .remove-button {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+    color: #e72e2e;
+}
+
+.task-image-editor .image-container .remove-button:hover {
+    color: #f89393;
+}
+
+.system-messages-container {
+    z-index: 10000000;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.system-messages-container .system-message {
+    background-color: rgba(0, 0, 0, .9);
+    box-shadow: 0px 1px 2px 0px #999;
+    border: 1px #cfcfcf solid;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    color: white;
+    padding: 25px;
+    width: 320px;
+}
+
+.system-messages-container .system-message:last-child { margin: 0px; }
+.system-messages-container .system-message.danger { color: #ff6666; }
+.system-messages-container .system-message.info { color: #66ccff; }
+.system-messages-container .system-message.warning { color: #ffcc66; }
+.system-messages-container .system-message.success { color: #99ff66; }
+
+.panel-heading .glyphicon {
+    cursor: pointer;
+}
+
+.content-block .tasks-tools {
+    background-color: #f5f5f5;
+    border: 1px solid #dddddd;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    padding: 3px;
+}

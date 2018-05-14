@@ -1,0 +1,19 @@
+{
+    "name": "stweet/php-task-manager",
+    "description": "Php task manager",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sergey",
+            "email": "stweetart@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "beejee\\": "beejee",
+            "stweet\\": "stweet"
+        }
+    },
+    "require": {}
+}
